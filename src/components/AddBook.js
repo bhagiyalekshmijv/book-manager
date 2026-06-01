@@ -9,7 +9,7 @@ function AddBook() {
     const [published_year, setPublishedYear] = useState("");
     const [genre, setGenre] = useState("");
 
-    var navigate = useNavigate();
+    const navigate = useNavigate();
 
     const handleSubmit = (e) => {
         e.preventDefault();
